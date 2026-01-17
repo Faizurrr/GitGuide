@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import DocsImg from "../assets/DocsImg.png";
 
 export default function Docs() {
   return (
@@ -8,7 +9,7 @@ export default function Docs() {
 <div className="w-full relative overflow-hidden
                 h-48 sm:h-64 md:h-80 lg:h-96 xl:h-[28rem]">
   <img
-    src="/pictures/DocsImg.png"
+    src={DocsImg}
     alt="Docs"
     className="w-full h-full object-cover object-center"
   />
