@@ -28,10 +28,11 @@ function App() {
     <Router>
         {/* components */}
       <Navbar />
+      <Home />
       
       <Routes>
         {/* pages */}
-          <Route path="/" element={<Home />} />
+         
         <Route path="/docs" element={<Docs />} />
         <Route path="/Tutorials" element={<Tutorials />} />
            <Route path="/About" element={<About/>} />
